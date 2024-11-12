@@ -1,0 +1,17 @@
+NAIVE BAYES SUMMARY
+
+TRAINING STATS
+              bmi avg bmi std wgt avg wgt std hgt avg hgt std age avg age std
+underweight      15.8    1.55   38.91     6.5    1.56    0.07   29.83   13.68
+normal weight   22.65    1.58   67.25    6.35    1.72    0.05   27.74    8.64
+overweight      26.77    1.29   81.34    7.66    1.74    0.06   39.18   10.77
+obese           42.56    8.65  130.42   36.18    1.74     0.1   33.39   12.94
+(units)        kg/m^2  kg/m^2      kg      kg       m       m     yrs     yrs
+
+MODEL SUMMARY
+              # actual % actual  % from scratch  % sklearn
+underweight         96    12.96           12.82      12.82
+normal weight      342    46.15           48.45      48.45
+overweight         166     22.4           20.38      20.38
+obese              137    18.49           18.35      18.35
+(accuracy)                                 0.90       0.90
